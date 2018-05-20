@@ -1,0 +1,30 @@
+@import '../../style/sizes';
+@import '../../style/colors';
+
+.front {
+  backface-visibility: hidden;
+  z-index: 2;
+  background-color: $primary-color;
+  transform: rotateY(0deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: $card-width;
+  height: $card-height;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row-flip {
+  align-items: center;
+  justify-content: center;
+}
+
+.upper-row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

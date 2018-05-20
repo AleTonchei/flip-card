@@ -1,0 +1,21 @@
+@import '../../../style/colors.scss';
+
+.week {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.day {
+  background-color: $secondary-color;
+  flex-grow: 1;
+  width: calc(100% * (1/7));
+  text-align: center;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.selected {
+  background-color: $primary-color;
+}

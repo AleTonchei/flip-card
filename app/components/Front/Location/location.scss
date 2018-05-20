@@ -1,0 +1,18 @@
+.location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.location-icon {
+  margin: 5px;
+  padding: 5px;
+}
+
+.location-text {
+  font-size: 20pt;
+  padding: 5px;
+  margin: 5px;
+}

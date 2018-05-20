@@ -1,0 +1,47 @@
+@import './style/sizes';
+@import './style/colors';
+@import './style/fonts';
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  color: $text-color;
+  font-family: $font-family;
+  transition: 0.3s;
+  justify-content: space-around;
+  width: $card-width;
+  height: $card-height;
+  perspective: 1000px;
+}
+
+.flipper-container {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+.flip {
+  transform: rotateY(-180deg);
+}
+
+.flip-div {
+  display: flex;
+  margin-top: 20px;
+  background-color: $primary-color;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+}

@@ -1,0 +1,12 @@
+@import '../../style/sizes';
+
+.back {
+  backface-visibility: hidden;
+  width: $card-width;
+  height: $card-height;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transform: rotateY(-180deg);
+}
