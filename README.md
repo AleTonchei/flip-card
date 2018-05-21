@@ -15,7 +15,7 @@ A simple flip card made with react
 └── ReadMe.md     // How to Setup
 ```
 
-### Eviromental Variables
+### Env Vars
 
 | Env Var | Value | Type |
 | :---: | :---: | :---: |
@@ -31,6 +31,6 @@ A simple flip card made with react
 
 ```
 $ cp .env.example .env
-// Fill the enviromental variables
+// Fill env vars
 $ npm start
 ```
