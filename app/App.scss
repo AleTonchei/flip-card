@@ -1,9 +1,10 @@
-@import './style/sizes';
+@import './style/settings';
 @import './style/colors';
 @import './style/fonts';
 
 html, body {
   height: 100%;
+  font-family: $font-family;
 }
 
 body {
@@ -16,7 +17,6 @@ body {
 
 .app {
   color: $text-color;
-  font-family: $font-family;
   transition: 0.3s;
   justify-content: space-around;
   width: $card-width;

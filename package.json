@@ -5,6 +5,7 @@
   "author": "Alessandro Tonchei",
   "license": "MIT",
   "scripts": {
+    "prestart": "npm install",
     "start": "webpack-dev-server --open --config config/webpack.config.babel.js",
     "build": "webpack --config config/webpack.config.babel.js"
   },
